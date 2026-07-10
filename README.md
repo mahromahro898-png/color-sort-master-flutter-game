@@ -1,4 +1,4 @@
-# 🧪 Water Sort - Jogo de Quebra-Cabeça
+# 🧪 Color Sort Master - Jogo de Quebra-Cabeça
 
 Um jogo de quebra-cabeça lógico e cativante desenvolvido em **Flutter**. O objetivo é classificar as cores nos tubos de vidro até que cada tubo contenha apenas uma cor. Este projeto foi construído com foco em **Código Limpo (Clean Code)**, animações fluidas e uma excelente experiência do usuário (UX).
 
@@ -27,4 +27,4 @@ Para testar o jogo em sua máquina local, siga os passos abaixo:
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+   git clone [https://github.com/mahromahro898-png/color-sort-master-flutter-game.git](https://github.com/mahromahro898-png/color-sort-master-flutter-game.git)
