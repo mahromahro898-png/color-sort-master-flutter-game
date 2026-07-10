@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Color Sort Master Challenge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(160deg, #120b2f, #2b0a5a);
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+
+    .card {
+      max-width: 420px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 24px;
+      padding: 28px;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #ddd;
+      line-height: 1.5;
+    }
+
+    a {
+      display: block;
+      margin-top: 16px;
+      padding: 16px;
+      border-radius: 16px;
+      background: #ffc857;
+      color: #1e1b4b;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .store {
+      background: white;
+      color: #1e1b4b;
+    }
+  </style>
+</head>
+
+<body>
+<div class="card">
+  <h1>🏆 Color Sort Master</h1>
+  <p>Você recebeu um desafio! Abra o jogo para competir com seu amigo.</p>
+
+  <a id="openGame" href="#">Abrir desafio</a>
+  <a class="store" href="https://play.google.com/store/apps/details?id=com.mahershaheen.color_sort_master">
+    Baixar na Google Play
+  </a>
+</div>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get("id");
+
+  const deepLink = "colorsort://challenge?id=" + id;
+  const storeLink = "https://play.google.com/store/apps/details?id=com.mahershaheen.color_sort_master";
+
+  document.getElementById("openGame").href = deepLink;
+
+  setTimeout(() => {
+    window.location.href = deepLink;
+  }, 500);
+
+  setTimeout(() => {
+    window.location.href = storeLink;
+  }, 2500);
+</script>
+</body>
+</html>

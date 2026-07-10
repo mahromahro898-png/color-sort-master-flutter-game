@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1079998412784",
+    "project_id": "color-sort-master-e822e",
+    "storage_bucket": "color-sort-master-e822e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079998412784:android:d808c4bdc02d9fa6040f35",
+        "android_client_info": {
+          "package_name": "com.mahershaheen.color_sort_master"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_FuXA8KQtN7A9eGU2PxsENxPAQD8VqnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
